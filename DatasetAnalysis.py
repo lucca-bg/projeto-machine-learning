@@ -78,7 +78,7 @@ numeric_features = [
     "duration_ms", "acousticness"
 ]
 
-categorical_features = ["track_artist"]
+categorical_features = []
 
 preprocessor = ColumnTransformer(
     transformers=[
